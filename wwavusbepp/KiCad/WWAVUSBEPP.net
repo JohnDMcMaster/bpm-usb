@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /usr/local/google/home/mohsinally/Development/bpm-usb/wwavusbepp/KiCad/WWAVUSBEPP.sch)
-    (date "Tue 14 May 2019 06:13:47 PM PDT")
+    (date "Fri 17 May 2019 05:00:50 PM PDT")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -136,7 +136,7 @@
       (tstamp 5CEE8F31))
     (comp (ref U3)
       (value NCP302LSN45T1G)
-      (footprint Package_SO:SOT95P275X110-5N)
+      (footprint SOP95P275X110-5N:SOP95P275X110-5N)
       (datasheet "Voltage Detector Series with Programmable Delay and Complementary Output 4.5 V, Reset Low")
       (fields
         (field (name Field4) Unavailable)
