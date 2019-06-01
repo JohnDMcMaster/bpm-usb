@@ -1393,7 +1393,7 @@ U 1 1 5CE7C320
 P 2300 1650
 F 0 "J5" H 2408 1831 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2408 1740 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 2300 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 2300 1650 50  0001 C CNN
 F 3 "~" H 2300 1650 50  0001 C CNN
 	1    2300 1650
 	-1   0    0    1   

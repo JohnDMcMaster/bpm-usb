@@ -637,17 +637,6 @@ $EndComp
 Connection ~ 9300 6250
 Wire Wire Line
 	9300 6250 10650 6250
-$Comp
-L WWAVUSBEPP-rescue:CY7C68013-56LFC-Cypress_CY7C6801356LFC U1
-U 1 1 5CD043B8
-P 4500 1350
-F 0 "U1" H 6400 1722 39  0000 C CNN
-F 1 "CY7C68013-56LFC" H 6400 1631 60  0000 C CNN
-F 2 "Package_DFN_QFN:Cypress_QFN-56-1EP_8x8mm_P0.5mm_EP6.22x6.22mm_ThermalVias" H 6400 1590 60  0001 C CNN
-F 3 "" H 4500 1350 60  0000 C CNN
-	1    4500 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 1550 4250 1550
 $Comp
@@ -1404,7 +1393,7 @@ U 1 1 5CE7C320
 P 2300 1650
 F 0 "J5" H 2408 1831 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2408 1740 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 2300 1650 50  0001 C CNN
+F 2 "Connector:JWT_A3963_1x02_P3.96mm_Vertical" H 2300 1650 50  0001 C CNN
 F 3 "~" H 2300 1650 50  0001 C CNN
 	1    2300 1650
 	-1   0    0    1   
@@ -1540,45 +1529,6 @@ Connection ~ 3850 1950
 Wire Wire Line
 	3850 1950 3850 1600
 $Comp
-L Connector:TestPoint TP18
-U 1 1 5CF85EE6
-P 5800 1700
-F 0 "TP18" V 5754 1888 50  0000 L CNN
-F 1 "TestPoint" V 5845 1888 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 1700 50  0001 C CNN
-F 3 "~" H 6000 1700 50  0001 C CNN
-	1    5800 1700
-	0    1    1    0   
-$EndComp
-Text GLabel 5800 1700 0    50   Input ~ 0
-23
-$Comp
-L Connector:TestPoint TP17
-U 1 1 5CF86052
-P 5800 1500
-F 0 "TP17" V 5754 1688 50  0000 L CNN
-F 1 "TestPoint" V 5845 1688 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 1500 50  0001 C CNN
-F 3 "~" H 6000 1500 50  0001 C CNN
-	1    5800 1500
-	0    1    1    0   
-$EndComp
-Text GLabel 5800 1500 0    50   Input ~ 0
-XTALIN
-$Comp
-L Connector:TestPoint TP16
-U 1 1 5CF861B3
-P 5800 1300
-F 0 "TP16" V 5754 1488 50  0000 L CNN
-F 1 "TestPoint" V 5845 1488 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 1300 50  0001 C CNN
-F 3 "~" H 6000 1300 50  0001 C CNN
-	1    5800 1300
-	0    1    1    0   
-$EndComp
-Text GLabel 5800 1300 0    50   Input ~ 0
-U3_R
-$Comp
 L Connector:TestPoint TP8
 U 1 1 5CF86A7C
 P 4350 3550
@@ -1654,45 +1604,6 @@ Connection ~ 9500 2650
 Wire Wire Line
 	9500 2650 10150 2650
 $Comp
-L Connector:TestPoint TP19
-U 1 1 5CFE1428
-P 6100 2200
-F 0 "TP19" V 6054 2388 50  0000 L CNN
-F 1 "TestPoint" V 6145 2388 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 2200 50  0001 C CNN
-F 3 "~" H 6300 2200 50  0001 C CNN
-	1    6100 2200
-	0    1    1    0   
-$EndComp
-Text GLabel 6100 2200 0    50   Input ~ 0
-6
-$Comp
-L Connector:TestPoint TP20
-U 1 1 5CFE15D8
-P 6100 2400
-F 0 "TP20" V 6054 2588 50  0000 L CNN
-F 1 "TestPoint" V 6145 2588 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 2400 50  0001 C CNN
-F 3 "~" H 6300 2400 50  0001 C CNN
-	1    6100 2400
-	0    1    1    0   
-$EndComp
-Text GLabel 6100 2400 0    50   Input ~ 0
-25
-$Comp
-L Connector:TestPoint TP21
-U 1 1 5CFE1736
-P 6100 2600
-F 0 "TP21" V 6054 2788 50  0000 L CNN
-F 1 "TestPoint" V 6145 2788 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 2600 50  0001 C CNN
-F 3 "~" H 6300 2600 50  0001 C CNN
-	1    6100 2600
-	0    1    1    0   
-$EndComp
-Text GLabel 6100 2600 0    50   Input ~ 0
-8
-$Comp
 L Connector:TestPoint TP33
 U 1 1 5CFE19A7
 P 9200 3450
@@ -1734,56 +1645,6 @@ Wire Wire Line
 Connection ~ 9600 3650
 Wire Wire Line
 	9600 3650 10150 3650
-$Comp
-L Connector:TestPoint TP23
-U 1 1 5CFEC2E9
-P 6100 3000
-F 0 "TP23" V 6054 3188 50  0000 L CNN
-F 1 "TestPoint" V 6145 3188 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 3000 50  0001 C CNN
-F 3 "~" H 6300 3000 50  0001 C CNN
-	1    6100 3000
-	0    1    1    0   
-$EndComp
-Text GLabel 6100 2800 0    50   Input ~ 0
-1
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5CFEC6FC
-P 5150 3250
-F 0 "TP9" V 5104 3438 50  0000 L CNN
-F 1 "TestPoint" V 5195 3438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5350 3250 50  0001 C CNN
-F 3 "~" H 5350 3250 50  0001 C CNN
-	1    5150 3250
-	0    1    1    0   
-$EndComp
-Text GLabel 5150 3250 0    50   Input ~ 0
-17
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5CFEC976
-P 5150 3450
-F 0 "TP10" V 5104 3638 50  0000 L CNN
-F 1 "TestPoint" V 5195 3638 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5350 3450 50  0001 C CNN
-F 3 "~" H 5350 3450 50  0001 C CNN
-	1    5150 3450
-	0    1    1    0   
-$EndComp
-Text GLabel 5150 3450 0    50   Input ~ 0
-15
-$Comp
-L Connector:TestPoint TP11
-U 1 1 5CFECB54
-P 5150 3650
-F 0 "TP11" V 5104 3838 50  0000 L CNN
-F 1 "TestPoint" V 5195 3838 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5350 3650 50  0001 C CNN
-F 3 "~" H 5350 3650 50  0001 C CNN
-	1    5150 3650
-	0    1    1    0   
-$EndComp
 Text GLabel 5150 3650 0    50   Input ~ 0
 13
 $Comp
@@ -1839,30 +1700,6 @@ Text GLabel 5150 4250 0    50   Input ~ 0
 Text GLabel 5150 4450 0    50   Input ~ 0
 5
 $Comp
-L Connector:TestPoint TP24
-U 1 1 5CFED3AE
-P 6100 3250
-F 0 "TP24" V 6054 3438 50  0000 L CNN
-F 1 "TestPoint" V 6145 3438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 3250 50  0001 C CNN
-F 3 "~" H 6300 3250 50  0001 C CNN
-	1    6100 3250
-	0    1    1    0   
-$EndComp
-Text GLabel 6100 3250 0    50   Input ~ 0
-3
-$Comp
-L Connector:TestPoint TP25
-U 1 1 5CFED65A
-P 6100 3500
-F 0 "TP25" V 6054 3688 50  0000 L CNN
-F 1 "TestPoint" V 6145 3688 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 3500 50  0001 C CNN
-F 3 "~" H 6300 3500 50  0001 C CNN
-	1    6100 3500
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:TestPoint TP26
 U 1 1 5CFED762
 P 6100 3750
@@ -1873,8 +1710,6 @@ F 3 "~" H 6300 3750 50  0001 C CNN
 	1    6100 3750
 	0    1    1    0   
 $EndComp
-Text GLabel 6100 3500 0    50   Input ~ 0
-SDA
 Text GLabel 6100 3750 0    50   Input ~ 0
 SCL
 $Comp
@@ -1917,6 +1752,136 @@ $EndComp
 Text GLabel 6200 4450 0    50   Input ~ 0
 XTALOUT
 $Comp
+L WWAVUSBEPP-rescue:CY7C68013-56LFC-Cypress_CY7C6801356LFC U1
+U 1 1 5CD043B8
+P 4500 1350
+F 0 "U1" H 6400 1722 39  0000 C CNN
+F 1 "CY7C68013-56LFC" H 6400 1631 60  0000 C CNN
+F 2 "Package_DFN_QFN:Cypress_QFN-56-1EP_8x8mm_P0.5mm_EP6.22x6.22mm_ThermalVias" H 6400 1590 60  0001 C CNN
+F 3 "" H 4500 1350 60  0000 C CNN
+	1    4500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5CFECB54
+P 5150 3650
+F 0 "TP11" V 5104 3838 50  0000 L CNN
+F 1 "TestPoint" V 5195 3838 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5350 3650 50  0001 C CNN
+F 3 "~" H 5350 3650 50  0001 C CNN
+	1    5150 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 5150 3450 0    50   Input ~ 0
+15
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5CFEC976
+P 5150 3450
+F 0 "TP10" V 5104 3638 50  0000 L CNN
+F 1 "TestPoint" V 5195 3638 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5350 3450 50  0001 C CNN
+F 3 "~" H 5350 3450 50  0001 C CNN
+	1    5150 3450
+	0    1    1    0   
+$EndComp
+Text GLabel 5150 3250 0    50   Input ~ 0
+17
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5CFEC6FC
+P 5150 3250
+F 0 "TP9" V 5104 3438 50  0000 L CNN
+F 1 "TestPoint" V 5195 3438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5350 3250 50  0001 C CNN
+F 3 "~" H 5350 3250 50  0001 C CNN
+	1    5150 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 5800 1700 0    50   Input ~ 0
+23
+Text GLabel 5800 1500 0    50   Input ~ 0
+XTALIN
+Text GLabel 5800 1300 0    50   Input ~ 0
+U3_R
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5CF861B3
+P 5800 1300
+F 0 "TP16" V 5754 1488 50  0000 L CNN
+F 1 "TestPoint" V 5845 1488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 1300 50  0001 C CNN
+F 3 "~" H 6000 1300 50  0001 C CNN
+	1    5800 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5CF86052
+P 5800 1500
+F 0 "TP17" V 5754 1688 50  0000 L CNN
+F 1 "TestPoint" V 5845 1688 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 1500 50  0001 C CNN
+F 3 "~" H 6000 1500 50  0001 C CNN
+	1    5800 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5CF85EE6
+P 5800 1700
+F 0 "TP18" V 5754 1888 50  0000 L CNN
+F 1 "TestPoint" V 5845 1888 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 1700 50  0001 C CNN
+F 3 "~" H 6000 1700 50  0001 C CNN
+	1    5800 1700
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 3500 0    50   Input ~ 0
+SDA
+$Comp
+L Connector:TestPoint TP25
+U 1 1 5CFED65A
+P 6100 3500
+F 0 "TP25" V 6054 3688 50  0000 L CNN
+F 1 "TestPoint" V 6145 3688 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 3500 50  0001 C CNN
+F 3 "~" H 6300 3500 50  0001 C CNN
+	1    6100 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 3250 0    50   Input ~ 0
+3
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5CFED3AE
+P 6100 3250
+F 0 "TP24" V 6054 3438 50  0000 L CNN
+F 1 "TestPoint" V 6145 3438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 3250 50  0001 C CNN
+F 3 "~" H 6300 3250 50  0001 C CNN
+	1    6100 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 2600 0    50   Input ~ 0
+8
+Text GLabel 6100 2800 0    50   Input ~ 0
+1
+Text GLabel 6100 3000 0    50   Input ~ 0
+2
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5CFEC2E9
+P 6100 3000
+F 0 "TP23" V 6054 3188 50  0000 L CNN
+F 1 "TestPoint" V 6145 3188 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 3000 50  0001 C CNN
+F 3 "~" H 6300 3000 50  0001 C CNN
+	1    6100 3000
+	0    1    1    0   
+$EndComp
+$Comp
 L Connector:TestPoint TP22
 U 1 1 5CFEC241
 P 6100 2800
@@ -1927,6 +1892,41 @@ F 3 "~" H 6300 2800 50  0001 C CNN
 	1    6100 2800
 	0    1    1    0   
 $EndComp
-Text GLabel 6100 3000 0    50   Input ~ 0
-2
+$Comp
+L Connector:TestPoint TP21
+U 1 1 5CFE1736
+P 6100 2600
+F 0 "TP21" V 6054 2788 50  0000 L CNN
+F 1 "TestPoint" V 6145 2788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 2600 50  0001 C CNN
+F 3 "~" H 6300 2600 50  0001 C CNN
+	1    6100 2600
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 2400 0    50   Input ~ 0
+25
+$Comp
+L Connector:TestPoint TP20
+U 1 1 5CFE15D8
+P 6100 2400
+F 0 "TP20" V 6054 2588 50  0000 L CNN
+F 1 "TestPoint" V 6145 2588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 2400 50  0001 C CNN
+F 3 "~" H 6300 2400 50  0001 C CNN
+	1    6100 2400
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 2200 0    50   Input ~ 0
+6
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5CFE1428
+P 6100 2200
+F 0 "TP19" V 6054 2388 50  0000 L CNN
+F 1 "TestPoint" V 6145 2388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 2200 50  0001 C CNN
+F 3 "~" H 6300 2200 50  0001 C CNN
+	1    6100 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
